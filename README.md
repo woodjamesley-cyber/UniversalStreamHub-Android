@@ -17,7 +17,8 @@ downloads.
 | Area | Behaviour |
 | --- | --- |
 | Discovery | Home rows (trending, popular, new, upcoming, acclaimed, TV) from TMDB when a key is configured, always plus a verified free catalog. |
-| Free catalog | 24 public-domain / Creative Commons films from the Internet Archive, each with a verified direct MP4 stream, poster, runtime and genres. This works without any API key. |
+| Free catalog | Public-domain / Creative Commons films from the Internet Archive, each with a verified direct MP4 stream, poster, runtime and genres. The server resolves this live; the APK also ships a verified 16-film snapshot (`app/src/main/assets/free_catalog.json`) so it is usable before any backend exists. |
+| Out of the box | With no hub server reachable the app automatically serves the bundled free catalog for Home, Discover, Search, Details, playback and downloads, and says so in a banner with a link to Profile > Hub server. Nothing is faked; once a server is configured the full TMDB catalogue takes over. |
 | Native playback | Media3 ExoPlayer with fullscreen landscape, seek, play/pause, +/-10 s, speed, brightness, volume, subtitle/audio track selection, resume, buffering and error states, and picture-in-picture. |
 | Licensed titles | Deep-link handoff to the provider's official Android app (or official website). The app never extracts streams, embeds a browser for playback, or bypasses DRM. |
 | Search | Debounced title/person search with filters (type, year, genre, rating, provider, language, sort), recent searches and people results. |
@@ -33,6 +34,7 @@ downloads.
 app/                     Android application (Kotlin + Compose)
   src/main/java/...      app code (data, ui, player, work, util)
   src/main/res/          themes, icons, strings
+  src/main/assets/       verified free-catalog snapshot bundled in the APK
   src/test/              JVM unit tests
 backend/                 Cloudflare Worker API
   src/                   hono routes, auth, TMDB, catalog, recommendations
@@ -40,6 +42,7 @@ backend/                 Cloudflare Worker API
   schema.sql             D1 schema
   wrangler.toml          Worker + D1 binding
 docs/                    architecture, setup, API, legal notes
+tools/                   free-catalog snapshot generator
 .github/workflows/       Android APK + backend CI
 ```
 
@@ -67,6 +70,17 @@ Required secrets (production: `npx wrangler secret put <NAME>`):
 
 Without a TMDB key the API still works and serves the verified free catalog, and
 the app shows a clear "TMDB not configured" notice instead of fake data.
+
+You can install and use the APK before deploying anything: it falls back to the
+bundled snapshot. Deploy the Worker to unlock TMDB search, provider availability
+and cross-device library sync. The snapshot is regenerated with:
+
+```bash
+node tools/generate-free-catalog.mjs app/src/main/assets/free_catalog.json
+```
+
+That script only keeps titles whose direct MP4 answers HTTP 200 and whose
+metadata declares a public-domain or Creative Commons licence.
 
 Get a TMDB key at <https://www.themoviedb.org/settings/api> (free for non-commercial use,
 attribution required).

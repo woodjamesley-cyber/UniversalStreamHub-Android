@@ -14,6 +14,7 @@ optional `PlayerActivity` for native playback.
 | Data | `data/remote` | Retrofit `HubApi`, kotlinx.serialization DTOs, `ApiClient` |
 | Data | `data/local` | Room (`AppDatabase`) for library/offline rows, DataStore (`UserStore`) for settings and session |
 | Data | `data/repo` | `CatalogRepository`, `AuthRepository`, `LibraryRepository`, `DownloadRepository` |
+| Data | `data/bundled` | `BundledFreeCatalog` - verified snapshot in `assets/free_catalog.json`, served when the hub server is unreachable |
 | Work | `work/` | `DownloadWorker` (WorkManager) with progress, Wi-Fi gating and quota checks |
 
 Dependency wiring is manual in `AppGraph`; `vmFactory` builds view models without a DI framework.

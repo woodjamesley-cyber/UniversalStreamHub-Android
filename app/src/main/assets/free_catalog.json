@@ -1,0 +1,605 @@
+{
+  "generatedAt": "2026-11-25T21:53:36.983Z",
+  "source": "Internet Archive (archive.org)",
+  "note": "Each title was verified to expose a direct MP4 stream and an explicit public-domain or Creative Commons licence at generation time.",
+  "items": [
+    {
+      "media": {
+        "id": "open:charlie_chaplin_film_fest",
+        "source": "open",
+        "type": "movie",
+        "title": "Charlie Chaplin Festival",
+        "overview": "Four Chaplin shorts from 1917: The Adventurer, The Cure, Easy Street and The Immigrant, presented with music and sound effects. You can find more information regarding this film on its IMDb page .",
+        "posterUrl": "https://archive.org/services/img/charlie_chaplin_film_fest",
+        "backdropUrl": null,
+        "releaseDate": "1938-01-01",
+        "year": 1938,
+        "voteAverage": 0,
+        "genres": [
+          "Comedy"
+        ],
+        "runtimeMinutes": 77,
+        "providers": [],
+        "playback": "NATIVE",
+        "downloadable": true,
+        "license": "http://creativecommons.org/licenses/publicdomain/",
+        "quality": "h.264",
+        "fileSizeBytes": 483532211,
+        "trailerYoutubeKey": null
+      },
+      "source": {
+        "id": "open:charlie_chaplin_film_fest",
+        "label": "Internet Archive - h.264",
+        "url": "https://archive.org/download/charlie_chaplin_film_fest/charlie_chaplin_film_fest.mp4",
+        "mimeType": "video/mp4",
+        "quality": "h.264",
+        "downloadAllowed": true,
+        "fileSizeBytes": 483532211,
+        "license": "http://creativecommons.org/licenses/publicdomain/"
+      },
+      "director": null
+    },
+    {
+      "media": {
+        "id": "open:his_girl_friday",
+        "source": "open",
+        "type": "movie",
+        "title": "His Girl Friday",
+        "overview": "Hilarious romantic comedy starring Cary Grant and Rosalind Russell. Russell is rough and tumble reporter looking to get out of the news racket by marrying and becoming a house wife after her divorce from newspaper publisher Grant. Just when she is about to leave town with her husband-to-be the still lovesick Grant drafts her to cover one final breaking news sensation. Along with plenty of laughs and fast paced dialo…",
+        "posterUrl": "https://archive.org/services/img/his_girl_friday",
+        "backdropUrl": null,
+        "releaseDate": "1940-01-01",
+        "year": 1940,
+        "voteAverage": 0,
+        "genres": [
+          "Romance",
+          "Comedy"
+        ],
+        "runtimeMinutes": 91,
+        "providers": [],
+        "playback": "NATIVE",
+        "downloadable": true,
+        "license": "http://creativecommons.org/licenses/publicdomain/",
+        "quality": "h.264",
+        "fileSizeBytes": 575274912,
+        "trailerYoutubeKey": null
+      },
+      "source": {
+        "id": "open:his_girl_friday",
+        "label": "Internet Archive - h.264",
+        "url": "https://archive.org/download/his_girl_friday/his_girl_friday.mp4",
+        "mimeType": "video/mp4",
+        "quality": "h.264",
+        "downloadAllowed": true,
+        "fileSizeBytes": 575274912,
+        "license": "http://creativecommons.org/licenses/publicdomain/"
+      },
+      "director": null
+    },
+    {
+      "media": {
+        "id": "open:VoyagetothePlanetofPrehistoricWomen",
+        "source": "open",
+        "type": "movie",
+        "title": "Voyage to the Planet of Prehistoric Women",
+        "overview": "A team of astronauts crashes on the surface of Venus. Accompanied by their robot, they explore the surface and end up destroying the Venusian God. This film is also known as \"The Gill Women\" and \"The Gill Women of Venus\". This film began life as a Soviet-produced work. An American producer then added some new footage and changed the credits to hide the film's Soviet origin. The original film, \"Planeta Bur\", is also …",
+        "posterUrl": "https://archive.org/services/img/VoyagetothePlanetofPrehistoricWomen",
+        "backdropUrl": null,
+        "releaseDate": "1967-01-01",
+        "year": 1967,
+        "voteAverage": 0,
+        "genres": [
+          "1960s",
+          "Soviet",
+          "Space"
+        ],
+        "runtimeMinutes": 79,
+        "providers": [],
+        "playback": "NATIVE",
+        "downloadable": true,
+        "license": "http://creativecommons.org/licenses/publicdomain/",
+        "quality": "h.264",
+        "fileSizeBytes": 496578286,
+        "trailerYoutubeKey": null
+      },
+      "source": {
+        "id": "open:VoyagetothePlanetofPrehistoricWomen",
+        "label": "Internet Archive - h.264",
+        "url": "https://archive.org/download/VoyagetothePlanetofPrehistoricWomen/VoyagetothePlanetofPrehistoricWomen.mp4",
+        "mimeType": "video/mp4",
+        "quality": "h.264",
+        "downloadAllowed": true,
+        "fileSizeBytes": 496578286,
+        "license": "http://creativecommons.org/licenses/publicdomain/"
+      },
+      "director": "Norman D. Wells"
+    },
+    {
+      "media": {
+        "id": "open:house_on_haunted_hill_ipod",
+        "source": "open",
+        "type": "movie",
+        "title": "House on Haunted Hill",
+        "overview": "Frederick Loren has invited five strangers to a party of a lifetime. He is offering each of them $10,000 if they can stay the night in a house.",
+        "posterUrl": "https://archive.org/services/img/house_on_haunted_hill_ipod",
+        "backdropUrl": null,
+        "releaseDate": "1959-01-01",
+        "year": 1959,
+        "voteAverage": 0,
+        "genres": [
+          "Drama",
+          "Horror",
+          "Thriller"
+        ],
+        "runtimeMinutes": 74,
+        "providers": [],
+        "playback": "NATIVE",
+        "downloadable": true,
+        "license": "http://creativecommons.org/licenses/publicdomain/",
+        "quality": "MPEG4",
+        "fileSizeBytes": 843645455,
+        "trailerYoutubeKey": null
+      },
+      "source": {
+        "id": "open:house_on_haunted_hill_ipod",
+        "label": "Internet Archive - MPEG4",
+        "url": "https://archive.org/download/house_on_haunted_hill_ipod/house_on_haunted_hill.mp4",
+        "mimeType": "video/mp4",
+        "quality": "MPEG4",
+        "downloadAllowed": true,
+        "fileSizeBytes": 843645455,
+        "license": "http://creativecommons.org/licenses/publicdomain/"
+      },
+      "director": "William Castle"
+    },
+    {
+      "media": {
+        "id": "open:JungleBook",
+        "source": "open",
+        "type": "movie",
+        "title": "Jungle Book",
+        "overview": "Teenaged Mowgli, who was raised by wolves, appears in a village in India and is adopted by Messua. Mowgli learns human language and some human ways quickly, though keeping jungle ideas. Influential Merchant Buldeo is bigoted against 'beasts' including Mowgli; not so Buldeo's pretty daughter, whom Mowgli takes on a jungle tour where they find a treasure, setting the evil of human greed in motion. Nominated for 4 Osca…",
+        "posterUrl": "https://archive.org/services/img/JungleBook",
+        "backdropUrl": null,
+        "releaseDate": "1942-01-01",
+        "year": 1942,
+        "voteAverage": 0,
+        "genres": [
+          "Fantasy",
+          "Action",
+          "Adventure"
+        ],
+        "runtimeMinutes": 108,
+        "providers": [],
+        "playback": "NATIVE",
+        "downloadable": true,
+        "license": "http://creativecommons.org/licenses/publicdomain/",
+        "quality": "h.264",
+        "fileSizeBytes": 655601430,
+        "trailerYoutubeKey": null
+      },
+      "source": {
+        "id": "open:JungleBook",
+        "label": "Internet Archive - h.264",
+        "url": "https://archive.org/download/JungleBook/Jungle_Book.mp4",
+        "mimeType": "video/mp4",
+        "quality": "h.264",
+        "downloadAllowed": true,
+        "fileSizeBytes": 655601430,
+        "license": "http://creativecommons.org/licenses/publicdomain/"
+      },
+      "director": "Alexander Korda"
+    },
+    {
+      "media": {
+        "id": "open:reefer_madness1938",
+        "source": "open",
+        "type": "movie",
+        "title": "Reefer Madness",
+        "overview": "Considered THE archetypal sensationalized anti-drug movie, but it's really an exploitation film made to capitalize on the hot taboo subject of marijuana use. Like many exploitation films of the time, \"Reefer Madness\" tried to make a quick buck off of a forbidden subject while skirting the Motion Picture Production Code of 1930. The Code forbade the portrayal of immoral acts like drug use. ( The illegal drug traffic …",
+        "posterUrl": "https://archive.org/services/img/reefer_madness1938",
+        "backdropUrl": null,
+        "releaseDate": "1938-01-01",
+        "year": 1938,
+        "voteAverage": 0,
+        "genres": [
+          "Exploitation",
+          "Cult",
+          "Pdmovies"
+        ],
+        "runtimeMinutes": 68,
+        "providers": [],
+        "playback": "NATIVE",
+        "downloadable": true,
+        "license": "http://creativecommons.org/licenses/publicdomain/",
+        "quality": "h.264",
+        "fileSizeBytes": 426811156,
+        "trailerYoutubeKey": null
+      },
+      "source": {
+        "id": "open:reefer_madness1938",
+        "label": "Internet Archive - h.264",
+        "url": "https://archive.org/download/reefer_madness1938/reefer_madness1938.mp4",
+        "mimeType": "video/mp4",
+        "quality": "h.264",
+        "downloadAllowed": true,
+        "fileSizeBytes": 426811156,
+        "license": "http://creativecommons.org/licenses/publicdomain/"
+      },
+      "director": "George A. Hirliman"
+    },
+    {
+      "media": {
+        "id": "open:Sita_Sings_the_Blues",
+        "source": "open",
+        "type": "movie",
+        "title": "Sita Sings the Blues",
+        "overview": "Sita is a goddess separated from her beloved Lord and husband Rama. Nina is an animator whose husband moves to India, then dumps her by email. Three hilarious shadow puppets narrate both ancient tragedy and modern comedy in this beautifully animated interpretation of the Indian epic Ramayana. Set to the 1920's jazz vocals of Annette Hanshaw, Sita Sings the Blues earns its tagline as \"the Greatest Break-Up Story Ever…",
+        "posterUrl": "https://archive.org/services/img/Sita_Sings_the_Blues",
+        "backdropUrl": null,
+        "releaseDate": "2008-01-01",
+        "year": 2008,
+        "voteAverage": 0,
+        "genres": [
+          "Public domain"
+        ],
+        "runtimeMinutes": 81,
+        "providers": [],
+        "playback": "NATIVE",
+        "downloadable": true,
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+        "quality": "h.264 MPEG4",
+        "fileSizeBytes": 872012352,
+        "trailerYoutubeKey": null
+      },
+      "source": {
+        "id": "open:Sita_Sings_the_Blues",
+        "label": "Internet Archive - h.264 MPEG4",
+        "url": "https://archive.org/download/Sita_Sings_the_Blues/Sita_Sings_the_Blues_large.mp4",
+        "mimeType": "video/mp4",
+        "quality": "h.264 MPEG4",
+        "downloadAllowed": true,
+        "fileSizeBytes": 872012352,
+        "license": "http://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "director": "Nina Paley"
+    },
+    {
+      "media": {
+        "id": "open:The_Pied_Piper_of_Hamelin",
+        "source": "open",
+        "type": "movie",
+        "title": "The Pied Piper of Hamelin",
+        "overview": "Stars Van Johnson, Claude Rains, Jim Backus Tagline: \"Now! a giant color spectacle! from the pages of the immortal classics comes this famous story\" Information regarding this film on its IMDb page . More information on Wikipedia .",
+        "posterUrl": "https://archive.org/services/img/The_Pied_Piper_of_Hamelin",
+        "backdropUrl": null,
+        "releaseDate": "1957-01-01",
+        "year": 1957,
+        "voteAverage": 0,
+        "genres": [
+          "Fantasy",
+          "Musical",
+          "Fairy tale"
+        ],
+        "runtimeMinutes": 89,
+        "providers": [],
+        "playback": "NATIVE",
+        "downloadable": true,
+        "license": "http://creativecommons.org/licenses/publicdomain/",
+        "quality": "h.264",
+        "fileSizeBytes": 543517334,
+        "trailerYoutubeKey": null
+      },
+      "source": {
+        "id": "open:The_Pied_Piper_of_Hamelin",
+        "label": "Internet Archive - h.264",
+        "url": "https://archive.org/download/The_Pied_Piper_of_Hamelin/pied.mp4",
+        "mimeType": "video/mp4",
+        "quality": "h.264",
+        "downloadAllowed": true,
+        "fileSizeBytes": 543517334,
+        "license": "http://creativecommons.org/licenses/publicdomain/"
+      },
+      "director": "Hal Stanley"
+    },
+    {
+      "media": {
+        "id": "open:abraham_lincoln",
+        "source": "open",
+        "type": "movie",
+        "title": "Abraham Lincoln",
+        "overview": "A biography of the beloved United States president by D. W. Griffith. You can find more information regarding this film on its IMDb page .",
+        "posterUrl": "https://archive.org/services/img/abraham_lincoln",
+        "backdropUrl": null,
+        "releaseDate": "1930-01-01",
+        "year": 1930,
+        "voteAverage": 0,
+        "genres": [
+          "Pdmovies"
+        ],
+        "runtimeMinutes": 84,
+        "providers": [],
+        "playback": "NATIVE",
+        "downloadable": true,
+        "license": "http://creativecommons.org/licenses/publicdomain/",
+        "quality": "h.264",
+        "fileSizeBytes": 528749539,
+        "trailerYoutubeKey": null
+      },
+      "source": {
+        "id": "open:abraham_lincoln",
+        "label": "Internet Archive - h.264",
+        "url": "https://archive.org/download/abraham_lincoln/abraham_lincoln.mp4",
+        "mimeType": "video/mp4",
+        "quality": "h.264",
+        "downloadAllowed": true,
+        "fileSizeBytes": 528749539,
+        "license": "http://creativecommons.org/licenses/publicdomain/"
+      },
+      "director": "D.W. Griffith"
+    },
+    {
+      "media": {
+        "id": "open:dressed_to_kill",
+        "source": "open",
+        "type": "movie",
+        "title": "Dressed To Kill",
+        "overview": "Aka 'Sherlock Holmes in Dressed To Kill' - features Basil Rathbone as Sherlock Holmes. You can find more information regarding this film on its IMDb page .",
+        "posterUrl": "https://archive.org/services/img/dressed_to_kill",
+        "backdropUrl": null,
+        "releaseDate": "1946-01-01",
+        "year": 1946,
+        "voteAverage": 0,
+        "genres": [
+          "Mystery",
+          "Thriller",
+          "Pdmovies"
+        ],
+        "runtimeMinutes": 71,
+        "providers": [],
+        "playback": "NATIVE",
+        "downloadable": true,
+        "license": "http://creativecommons.org/licenses/publicdomain/",
+        "quality": "h.264",
+        "fileSizeBytes": 447136720,
+        "trailerYoutubeKey": null
+      },
+      "source": {
+        "id": "open:dressed_to_kill",
+        "label": "Internet Archive - h.264",
+        "url": "https://archive.org/download/dressed_to_kill/dressed_to_kill.mp4",
+        "mimeType": "video/mp4",
+        "quality": "h.264",
+        "downloadAllowed": true,
+        "fileSizeBytes": 447136720,
+        "license": "http://creativecommons.org/licenses/publicdomain/"
+      },
+      "director": null
+    },
+    {
+      "media": {
+        "id": "open:3stooges",
+        "source": "open",
+        "type": "movie",
+        "title": "Three Stooges Episodes",
+        "overview": "4 Episodes Of The 3 Stooges. Downloads include: Disorder In The Court Brideless Groom Sing A Song Of Six Pants Malice In The Palace",
+        "posterUrl": "https://archive.org/services/img/3stooges",
+        "backdropUrl": null,
+        "releaseDate": null,
+        "year": null,
+        "voteAverage": 0,
+        "genres": [
+          "Three stooges",
+          "Comedy",
+          "Public domain"
+        ],
+        "runtimeMinutes": null,
+        "providers": [],
+        "playback": "NATIVE",
+        "downloadable": true,
+        "license": "http://creativecommons.org/licenses/publicdomain/",
+        "quality": "h.264",
+        "fileSizeBytes": 105468993,
+        "trailerYoutubeKey": null
+      },
+      "source": {
+        "id": "open:3stooges",
+        "label": "Internet Archive - h.264",
+        "url": "https://archive.org/download/3stooges/3stooges_NewApants2.mp4",
+        "mimeType": "video/mp4",
+        "quality": "h.264",
+        "downloadAllowed": true,
+        "fileSizeBytes": 105468993,
+        "license": "http://creativecommons.org/licenses/publicdomain/"
+      },
+      "director": null
+    },
+    {
+      "media": {
+        "id": "open:suddenly",
+        "source": "open",
+        "type": "movie",
+        "title": "Suddenly",
+        "overview": "\"Three gunmen, who have been hired to assassinate the President, hold a family hostage while waiting for their target. Interesting B film which focuses on psychopathic killer well-portrayed against type by Frank Sinatra.\" - noir expert Spencer Selby | Cast: Frank Sinatra, Sterling Hayden, James Gleason, Nancy Gates. 77 min.",
+        "posterUrl": "https://archive.org/services/img/suddenly",
+        "backdropUrl": null,
+        "releaseDate": "1954-01-01",
+        "year": 1954,
+        "voteAverage": 0,
+        "genres": [
+          "Crime",
+          "Drama",
+          "Frank Sinatra"
+        ],
+        "runtimeMinutes": 75,
+        "providers": [],
+        "playback": "NATIVE",
+        "downloadable": true,
+        "license": "http://creativecommons.org/licenses/publicdomain/",
+        "quality": "h.264",
+        "fileSizeBytes": 472229483,
+        "trailerYoutubeKey": null
+      },
+      "source": {
+        "id": "open:suddenly",
+        "label": "Internet Archive - h.264",
+        "url": "https://archive.org/download/suddenly/suddenly.mp4",
+        "mimeType": "video/mp4",
+        "quality": "h.264",
+        "downloadAllowed": true,
+        "fileSizeBytes": 472229483,
+        "license": "http://creativecommons.org/licenses/publicdomain/"
+      },
+      "director": null
+    },
+    {
+      "media": {
+        "id": "open:TheStranger_0",
+        "source": "open",
+        "type": "movie",
+        "title": "The Stranger",
+        "overview": "Set Connecticut after World War II, The Stranger is a cat and mouse game between Wilson (Edward G. Robinson), a member of the Allied War Crimes Commission and Franz Kindler (Orson Welles), a Nazi who has assumed the false identity of Dr. Charles Rankin. To complete his new intelligentsia disguise, Kindler marries Mary Longstreet, daughter of a Supreme Court justice.",
+        "posterUrl": "https://archive.org/services/img/TheStranger_0",
+        "backdropUrl": null,
+        "releaseDate": "1946-01-01",
+        "year": 1946,
+        "voteAverage": 0,
+        "genres": [
+          "Drama",
+          "Film-Noir",
+          "Mystery"
+        ],
+        "runtimeMinutes": 95,
+        "providers": [],
+        "playback": "NATIVE",
+        "downloadable": true,
+        "license": "http://creativecommons.org/licenses/publicdomain/",
+        "quality": "h.264",
+        "fileSizeBytes": 570456474,
+        "trailerYoutubeKey": null
+      },
+      "source": {
+        "id": "open:TheStranger_0",
+        "label": "Internet Archive - h.264",
+        "url": "https://archive.org/download/TheStranger_0/The_Stranger.mp4",
+        "mimeType": "video/mp4",
+        "quality": "h.264",
+        "downloadAllowed": true,
+        "fileSizeBytes": 570456474,
+        "license": "http://creativecommons.org/licenses/publicdomain/"
+      },
+      "director": "Sam Spiegel"
+    },
+    {
+      "media": {
+        "id": "open:mclintok_widescreen",
+        "source": "open",
+        "type": "movie",
+        "title": "McLintock!",
+        "overview": "John Wayne Comedy Western filmed in widescreeen.",
+        "posterUrl": "https://archive.org/services/img/mclintok_widescreen",
+        "backdropUrl": null,
+        "releaseDate": "1963-01-01",
+        "year": 1963,
+        "voteAverage": 0,
+        "genres": [
+          "John Wayne",
+          "Comedy",
+          "Western"
+        ],
+        "runtimeMinutes": 126,
+        "providers": [],
+        "playback": "NATIVE",
+        "downloadable": true,
+        "license": "http://creativecommons.org/licenses/publicdomain/",
+        "quality": "512Kb MPEG4",
+        "fileSizeBytes": 550863361,
+        "trailerYoutubeKey": null
+      },
+      "source": {
+        "id": "open:mclintok_widescreen",
+        "label": "Internet Archive - 512Kb MPEG4",
+        "url": "https://archive.org/download/mclintok_widescreen/McLintock_512kb.mp4",
+        "mimeType": "video/mp4",
+        "quality": "512Kb MPEG4",
+        "downloadAllowed": true,
+        "fileSizeBytes": 550863361,
+        "license": "http://creativecommons.org/licenses/publicdomain/"
+      },
+      "director": "Michael Wayne"
+    },
+    {
+      "media": {
+        "id": "open:tarzans_revenge",
+        "source": "open",
+        "type": "movie",
+        "title": "Tarzan's Revenge",
+        "overview": "You can find more information regarding this film on its IMDb page .",
+        "posterUrl": "https://archive.org/services/img/tarzans_revenge",
+        "backdropUrl": null,
+        "releaseDate": "1938-01-01",
+        "year": 1938,
+        "voteAverage": 0,
+        "genres": [
+          "Adventure"
+        ],
+        "runtimeMinutes": null,
+        "providers": [],
+        "playback": "NATIVE",
+        "downloadable": true,
+        "license": "http://creativecommons.org/licenses/publicdomain/",
+        "quality": "h.264",
+        "fileSizeBytes": 436898129,
+        "trailerYoutubeKey": null
+      },
+      "source": {
+        "id": "open:tarzans_revenge",
+        "label": "Internet Archive - h.264",
+        "url": "https://archive.org/download/tarzans_revenge/tarzans_revenge.mp4",
+        "mimeType": "video/mp4",
+        "quality": "h.264",
+        "downloadAllowed": true,
+        "fileSizeBytes": 436898129,
+        "license": "http://creativecommons.org/licenses/publicdomain/"
+      },
+      "director": null
+    },
+    {
+      "media": {
+        "id": "open:my_favorite_brunette",
+        "source": "open",
+        "type": "movie",
+        "title": "My Favorite Brunette",
+        "overview": "Bob Hope comedy with Dorothy Lamour. | You can find more information regarding this film on its IMDb page .",
+        "posterUrl": "https://archive.org/services/img/my_favorite_brunette",
+        "backdropUrl": null,
+        "releaseDate": "1947-01-01",
+        "year": 1947,
+        "voteAverage": 0,
+        "genres": [
+          "Comedy",
+          "Pdmovies"
+        ],
+        "runtimeMinutes": 86,
+        "providers": [],
+        "playback": "NATIVE",
+        "downloadable": true,
+        "license": "http://creativecommons.org/licenses/publicdomain/",
+        "quality": "h.264",
+        "fileSizeBytes": 545071308,
+        "trailerYoutubeKey": null
+      },
+      "source": {
+        "id": "open:my_favorite_brunette",
+        "label": "Internet Archive - h.264",
+        "url": "https://archive.org/download/my_favorite_brunette/my_favorite_brunette.mp4",
+        "mimeType": "video/mp4",
+        "quality": "h.264",
+        "downloadAllowed": true,
+        "fileSizeBytes": 545071308,
+        "license": "http://creativecommons.org/licenses/publicdomain/"
+      },
+      "director": "Daniel Dare"
+    }
+  ]
+}

@@ -23,7 +23,7 @@ class AppContainer(context: Context) {
     val apiClient = ApiClient { userStore.token() }
 
     val auth = AuthRepository(userStore, apiClient)
-    val catalog = CatalogRepository(userStore, apiClient)
+    val catalog = CatalogRepository(appContext, userStore, apiClient)
     val library = LibraryRepository(database, userStore, apiClient)
     val downloads = DownloadRepository(appContext, database, userStore)
 
