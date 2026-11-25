@@ -91,6 +91,9 @@ interface LibraryDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun saveProgress(item: ProgressEntity)
 
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun saveProgressAll(items: List<ProgressEntity>)
+
     @Query("SELECT * FROM progress_local ORDER BY updatedAt DESC")
     suspend fun allProgress(): List<ProgressEntity>
 

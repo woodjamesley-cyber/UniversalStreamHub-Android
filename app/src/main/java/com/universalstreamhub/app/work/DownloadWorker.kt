@@ -5,7 +5,7 @@ import android.net.Uri
 import androidx.documentfile.provider.DocumentFile
 import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
-import com.universalstreamhub.app.AppGraph
+import com.universalstreamhub.app.core.AppGraph
 import com.universalstreamhub.app.data.local.DownloadEntity
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
@@ -27,7 +27,7 @@ class DownloadWorker(
 
     override suspend fun doWork(): Result = withContext(Dispatchers.IO) {
         val container = AppGraph.container
-        val dao = container.db.downloadDao()
+        val dao = container.database.downloadDao()
 
         val id = inputData.getString(KEY_ID) ?: return@withContext Result.failure()
         val url = inputData.getString(KEY_URL) ?: return@withContext Result.failure()

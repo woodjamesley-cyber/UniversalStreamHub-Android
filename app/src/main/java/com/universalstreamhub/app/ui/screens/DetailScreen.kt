@@ -54,7 +54,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.universalstreamhub.app.AppGraph
+import com.universalstreamhub.app.core.AppGraph
 import com.universalstreamhub.app.data.remote.MediaSummaryDto
 import com.universalstreamhub.app.data.remote.NativeSourceDto
 import com.universalstreamhub.app.data.remote.ProviderLinkDto
@@ -127,7 +127,7 @@ fun DetailScreen(
                 onDownload = viewModel::download,
                 onOpenDetail = onOpenDetail,
             )
-            state is UiState.Error -> ErrorState(state.message, onRetry = { viewModel.load(mediaId) })
+            state is UiState.Error -> ErrorState((state as UiState.Error).message, onRetry = { viewModel.load(mediaId) })
             else -> LoadingState("Loading title...")
         }
         SnackbarHost(snackbar, modifier = Modifier.align(Alignment.BottomCenter))

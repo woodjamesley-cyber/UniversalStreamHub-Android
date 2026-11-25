@@ -56,7 +56,7 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.universalstreamhub.app.AppGraph
+import com.universalstreamhub.app.core.AppGraph
 import com.universalstreamhub.app.ui.components.InfoBanner
 import com.universalstreamhub.app.ui.components.LoadingState
 import com.universalstreamhub.app.ui.components.PosterCard

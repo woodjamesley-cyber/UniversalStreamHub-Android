@@ -62,7 +62,7 @@ import androidx.media3.exoplayer.source.DefaultMediaSourceFactory
 import androidx.media3.ui.AspectRatioFrameLayout
 import androidx.media3.ui.PlayerView
 import androidx.compose.ui.text.font.FontWeight
-import com.universalstreamhub.app.AppGraph
+import com.universalstreamhub.app.core.AppGraph
 import com.universalstreamhub.app.data.remote.MediaSummaryDto
 import com.universalstreamhub.app.ui.theme.HubAccent
 import com.universalstreamhub.app.ui.theme.HubBlack

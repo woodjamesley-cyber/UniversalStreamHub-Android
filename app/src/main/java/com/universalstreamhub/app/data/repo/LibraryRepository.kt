@@ -161,7 +161,7 @@ class LibraryRepository(
                 )
             },
         )
-        dao.saveProgress(
+        dao.saveProgressAll(
             (response.continueWatching + response.completed).distinctBy { it.id }.map {
                 ProgressEntity(
                     id = it.id,

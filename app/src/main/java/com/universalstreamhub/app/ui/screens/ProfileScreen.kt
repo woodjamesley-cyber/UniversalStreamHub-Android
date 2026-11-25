@@ -56,7 +56,7 @@ import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.universalstreamhub.app.AppGraph
+import com.universalstreamhub.app.core.AppGraph
 import com.universalstreamhub.app.BuildConfig
 import com.universalstreamhub.app.data.remote.PreferencesDto
 import com.universalstreamhub.app.ui.components.HubTopBar

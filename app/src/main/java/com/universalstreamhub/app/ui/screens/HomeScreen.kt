@@ -13,7 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.universalstreamhub.app.AppGraph
+import com.universalstreamhub.app.core.AppGraph
 import com.universalstreamhub.app.data.remote.HomeFeedDto
 import com.universalstreamhub.app.ui.components.ErrorState
 import com.universalstreamhub.app.ui.components.HeroBanner
@@ -41,7 +41,7 @@ fun HomeScreen(
             onOpenSearch = onOpenSearch,
             onOpenProfile = onOpenProfile,
         )
-        state is UiState.Error -> ErrorState(message = state.message, onRetry = viewModel::load)
+        state is UiState.Error -> ErrorState(message = (state as UiState.Error).message, onRetry = viewModel::load)
         else -> LoadingState()
     }
 }

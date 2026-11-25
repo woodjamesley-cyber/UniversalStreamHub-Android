@@ -29,8 +29,8 @@ the API still serves the live free public-domain catalog from the Internet Archi
 Requirements: JDK 17 and the Android SDK (platform 35, build-tools 35.0.0).
 
 ```bash
-gradle :app:assembleDebug
-gradle :app:assembleRelease
+./gradlew :app:assembleDebug
+./gradlew :app:assembleRelease
 ```
 
 Outputs:
@@ -38,7 +38,8 @@ Outputs:
 - `app/build/outputs/apk/debug/app-debug.apk`
 - `app/build/outputs/apk/release/app-release.apk`
 
-The project ships no Gradle wrapper JAR; install Gradle 8.9 or open the project in Android Studio.
+The project includes the Gradle 8.9 wrapper (`./gradlew`), so only JDK 17 and the Android SDK
+are required. You can also open the project in Android Studio and press Run.
 
 ### Point the app at your server
 

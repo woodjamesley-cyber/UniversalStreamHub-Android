@@ -24,7 +24,7 @@ downloads.
 | Accounts | Email + password registration, login, profile, preferences, password recovery (needs an email provider), account deletion. PBKDF2 hashes, JWT sessions. |
 | My List | Watchlist, continue-watching with saved position, viewing history. Stored locally in Room and synced to the server when signed in. |
 | Recommendations | Built from the user's own watchlist/progress genres and favourite genres. No invented statistics; empty state explains what is missing. |
-| Downloads | Real background downloads of the free catalog with progress, quota choices (4/8/16/32/64 GB or unlimited), Wi-Fi-only mode and an SD card / USB folder picker (SAF). Licensed DRM titles are rejected with an explanation. |
+| Downloads | Real background downloads of the free catalog with progress, storage allowances of 4 / 8 / 16 / 32 / 64 GB or unlimited (enforced before a download starts), a live usage meter, Wi-Fi-only mode and an SD card / USB folder picker via the Storage Access Framework. Downloaded files play in the native player. Licensed DRM titles are rejected with an explanation. |
 | Offline/UX | Loading, error and empty states, retry, network error messages, dark cinematic theme, adaptive grids, splash screen, custom icon. |
 
 ## Repository layout
@@ -74,16 +74,17 @@ attribution required).
 ### 2. Android app
 
 ```bash
-# Gradle 8.9+ and JDK 17, with the Android SDK installed
-gradle :app:assembleDebug          # debug APK
-gradle :app:assembleRelease        # release APK (debug-signed unless signing secrets are set)
+# JDK 17 and the Android SDK (platform 35, build-tools 35.0.0).
+# The Gradle 8.9 wrapper is committed, so no global Gradle install is needed.
+./gradlew :app:assembleDebug       # debug APK
+./gradlew :app:assembleRelease     # release APK (debug-signed unless signing secrets are set)
 # or open the project in Android Studio and press Run
 ```
 
 Point the app at your backend in **Profile > Hub server**, or build with a default:
 
 ```bash
-gradle :app:assembleDebug -PapiBaseUrl=https://your-worker.workers.dev/
+./gradlew :app:assembleDebug -PapiBaseUrl=https://your-worker.workers.dev/
 ```
 
 Emulator tip: a local Worker is reachable at `http://10.0.2.2:8787/`.
@@ -92,15 +93,21 @@ Emulator tip: a local Worker is reachable at `http://10.0.2.2:8787/`.
 
 `.github/workflows/android-build.yml` runs on pushes/PRs to `main` and on demand:
 
-1. JDK 17 + Android SDK + Gradle 8.9
-2. dependency resolution
-3. `gradle :app:testDebugUnitTest`
-4. `gradle :app:assembleDebug` and `:app:assembleRelease`
+1. JDK 17 + Android SDK 35 + build-tools 35.0.0
+2. `./gradlew :app:testDebugUnitTest`
+3. `./gradlew :app:assembleDebug` and `:app:assembleRelease`
+4. verifies both APKs exist and that the release APK is signed
 5. uploads both APKs as workflow artifacts
 6. on `main`, publishes them to the `apk-latest` GitHub release
 
-Download: open the **Actions** tab and pick the newest run's artifacts, or the
-**Releases** page for `apk-latest`.
+### Download the APK
+
+- Direct download: <https://github.com/woodjamesley-cyber/UniversalStreamHub-Android/releases/download/apk-latest/app-release.apk>
+- Release page (both APKs): <https://github.com/woodjamesley-cyber/UniversalStreamHub-Android/releases/tag/apk-latest>
+- Workflow runs and artifacts: <https://github.com/woodjamesley-cyber/UniversalStreamHub-Android/actions>
+
+Only an APK from a green workflow run is a real build. If the latest run is red,
+the artifact is missing and the run log shows the compiler error to fix.
 
 Release signing: add repository secrets `SIGNING_KEYSTORE_BASE64`,
 `SIGNING_STORE_PASSWORD`, `SIGNING_KEY_ALIAS`, `SIGNING_KEY_PASSWORD`. Without

@@ -9,7 +9,7 @@ import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFact
 import java.io.IOException
 import java.util.concurrent.TimeUnit
 
-class HubException(message: String, val code: String = "error", val cause: Throwable? = null) : Exception(message, cause)
+class HubException(message: String, val code: String = "error", cause: Throwable? = null) : Exception(message, cause)
 
 /**
  * Owns the OkHttp/Retrofit stack. The base URL can change at runtime (Profile >
