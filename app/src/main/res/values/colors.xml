@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="hub_background">#07080C</color>
+    <color name="hub_surface">#12141C</color>
+    <color name="hub_accent">#FF4D6D</color>
+    <color name="hub_icon_background">#0B0D14</color>
+</resources>
