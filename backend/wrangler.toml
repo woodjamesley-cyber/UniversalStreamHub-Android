@@ -1,0 +1,21 @@
+name = "universal-stream-hub-api"
+main = "src/index.ts"
+compatibility_date = "2024-12-05"
+
+# Create the database with:
+#   npx wrangler d1 create universal-stream-hub
+# then paste the id below.
+[[d1_databases]]
+binding = "DB"
+database_name = "universal-stream-hub"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+
+[vars]
+REGION = "US"
+ENVIRONMENT = "production"
+
+# Secrets (never commit values):
+#   npx wrangler secret put TMDB_API_KEY
+#   npx wrangler secret put JWT_SECRET
+#   npx wrangler secret put RESEND_API_KEY
+#   npx wrangler secret put RESEND_FROM

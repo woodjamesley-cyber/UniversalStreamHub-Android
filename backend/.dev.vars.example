@@ -1,0 +1,10 @@
+# Copy to .dev.vars for local development. Never commit .dev.vars.
+# TMDB API key (v3 auth) - optional. Without it the hub serves the free catalog only.
+TMDB_API_KEY=
+# Signing secret for hub JWTs. Generate with: openssl rand -base64 48
+JWT_SECRET=local-development-secret-change-me
+# Optional transactional email for password recovery.
+RESEND_API_KEY=
+RESEND_FROM=Universal Stream Hub <no-reply@example.com>
+REGION=US
+ENVIRONMENT=development
